@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) 
+{
+    char ch='A';
+    int i=0;
+    float f=0.0;
+    double d=0.0;
+    
+    printf("%c\t%d\n", ch, sizeof(ch));
+    printf("%d\t%d\n", i, sizeof(i));
+    printf("%.2lf\t\%d\n", f, sizeof(f));
+    printf("%.2lf\t%d\n", d, sizeof(d));
+    
+    return 0;
+}
