@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+void prtStr(void);
+
+int main(void) 
+{
+    prtStr();
+    
+    return 0;
+}
+
+void prtStr(void)
+{
+    printf("First message.\n");
+    
+    return;
+    
+    printf("Second message.\n");
+}
