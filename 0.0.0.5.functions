@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+void prtStr(void);
+
+int main(void) 
+{
+    prtStr();
+    
+    return 0;
+}
+
+void prtStr(void)
+{
+    printf("prtStr text: I like C.");
+}
