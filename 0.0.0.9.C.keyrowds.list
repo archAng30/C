@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+void cKeywords(void);
+void cExtKeywords(void);
+
+int main(void) 
+{
+    cKeywords();
+    cExtKeywords();
+    
+    return 0;
+}
+
+void cKeywords(void)
+{
+    printf("The C keywords list:\n"
+           "auto\t\tdouble\t\tint\t\tstruct\n"
+           "break\t\telse\t\tlong\t\tswitch\n"
+           "case\t\tenum\t\tregister\ttypedef\n"
+           "char\t\textern\t\treturn\t\tunion\n"
+           "count\t\tfloat\t\tshort\t\tunsigned\n"
+           "continue\tfor\t\tsigned\t\tvoid\n"
+           "default\t\tgoto\t\tsizeof\t\tvolatile\n"
+           "do\t\tif\t\tstatic\t\twhile\n"
+           "\n");
+}
+
+void cExtKeywords(void)
+{
+    printf("The C extended keywords list:\n"
+           "asm\t\tcs\t\tds\t\tes\n"
+           "_ss\t\tcdecl\t\tfar\t\thuge\n"
+           "interrupt\tnear\t\tpascal\n"
+           "\n");
+}
